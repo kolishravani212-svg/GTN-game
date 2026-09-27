@@ -1,0 +1,76 @@
+body{
+     background: linear-gradient(
+        135deg,
+        #d8b4fe,
+        #f9a8d4
+    );
+    /* background-color: plum; */
+}
+h1{
+    text-transform: capitalize;
+    text-align: center;
+    border: solid palevioletred;
+    background-color: pink;
+     text-shadow: 2px 2px 5px white;
+}
+h4{
+    margin-top: 10px;
+    text-transform: capitalize;
+    text-align: center;
+    
+    
+}
+#conten{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+     margin-top: 100px;
+     background-color: rgb(234, 102, 196);
+     border: solid pink;
+     border-radius: 10px;
+    }
+
+
+ .box{
+        height: 30px;
+        width: 500px;
+        margin: 20px;
+        /* border: solid palevioletred; */
+        background-color: pink;
+        color: black;
+         text-align:center;
+         transition: 0.3s;
+        
+         
+    } 
+    p{
+     margin-top: 50px;
+     text-transform: capitalize;
+    text-align:center;
+    font-size:35px;
+
+    }
+
+    #replay{
+        
+        background-color:pink ;
+         margin-top: 20px;
+    }
+   button:hover{
+        background-color: aliceblue;
+    }
+    button:active{
+        background-color:pink ;
+    }
+
+    #replay:hover{
+         background-color: aliceblue;
+    }
+
+    #replay:active{
+         background-color: pink
+    }
+    
+    
